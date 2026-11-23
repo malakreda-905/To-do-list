@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TaskFlow – My Tasks</title><link rel="stylesheet" href="css/style.css"></head><body>
+<nav><a class="logo" href="index.html">✅ TaskFlow</a><ul><li><a class="link " href="index.html">Dashboard</a></li><li><a class="link active" href="tasks.html">My Tasks</a></li><li><a class="link " href="calendar.html">Calendar</a></li></ul></nav>
+<main>
+<div class="head"><h1>📝 My Tasks</h1><button class="btn" id="add">+ Add Task</button></div>
+<div class="filters"><input id="q" placeholder="🔍 Search tasks..."><select id="fs"><option value="">All status</option><option>Pending</option><option>Completed</option></select>
+<select id="fp"><option value="">All priorities</option><option>High</option><option>Medium</option><option>Low</option></select></div>
+<ul class="tasks" id="list"></ul>
+</main>
+<script src="js/app.js"></script><script src="js/tasks.js"></script></body></html>
