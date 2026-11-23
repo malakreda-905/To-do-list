@@ -1,5 +1,5 @@
 # TaskFlow – To-Do List & Scheduling Website
-Open `index.html` in any browser. No install or server needed. Tasks are saved in your browser's localStorage.
+Open `index.html` in any browser or visit https://malakreda-905.github.io/To-do-list/. Tasks are saved in your browser's localStorage.
 
 ```
 TaskFlow/
